@@ -1,0 +1,1020 @@
+Vertical_Grip_Reach
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Vertical_Grip_Reach   R-squared:                       0.988
+Model:                             OLS   Adj. R-squared:                  0.988
+Method:                  Least Squares   F-statistic:                 4.894e+04
+Date:                 Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                         22:50:48   Log-Likelihood:                -6037.0
+No. Observations:                 1208   AIC:                         1.208e+04
+Df Residuals:                     1205   BIC:                         1.210e+04
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept   -185.0042     10.532    -17.565      0.000      -205.668  -164.340
+Stature        1.3396      0.011    119.573      0.000         1.318     1.362
+Weight        -0.0097      0.015     -0.630      0.529        -0.040     0.021
+==============================================================================
+Omnibus:                       21.664   Durbin-Watson:                   1.823
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.735
+Skew:                           0.019   Prob(JB):                     1.43e-09
+Kurtosis:                       3.899   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Frontal_Grip_Reach
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Frontal_Grip_Reach   R-squared:                       0.937
+Model:                            OLS   Adj. R-squared:                  0.937
+Method:                 Least Squares   F-statistic:                     9001.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:48   Log-Likelihood:                -5671.4
+No. Observations:                1213   AIC:                         1.135e+04
+Df Residuals:                    1210   BIC:                         1.136e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     31.9501      7.600      4.204      0.000        17.039    46.862
+Stature        0.3833      0.008     47.305      0.000         0.367     0.399
+Weight         0.0404      0.011      3.626      0.000         0.019     0.062
+==============================================================================
+Omnibus:                       73.910   Durbin-Watson:                   1.820
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               93.206
+Skew:                           0.565   Prob(JB):                     5.76e-21
+Kurtosis:                       3.752   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Lateral_Grip_Reach
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Lateral_Grip_Reach   R-squared:                       0.967
+Model:                            OLS   Adj. R-squared:                  0.966
+Method:                 Least Squares   F-statistic:                 1.733e+04
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:48   Log-Likelihood:                -5630.2
+No. Observations:                1203   AIC:                         1.127e+04
+Df Residuals:                    1200   BIC:                         1.128e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     70.1101      7.687      9.121      0.000        55.029    85.191
+Stature        0.4584      0.008     56.030      0.000         0.442     0.474
+Weight         0.1718      0.011     15.276      0.000         0.150     0.194
+==============================================================================
+Omnibus:                       44.281   Durbin-Watson:                   1.757
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               69.171
+Skew:                           0.320   Prob(JB):                     9.54e-16
+Kurtosis:                       3.984   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Shoulder_Breadth
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       Shoulder_Breadth   R-squared:                       0.951
+Model:                            OLS   Adj. R-squared:                  0.951
+Method:                 Least Squares   F-statistic:                 3.671e+04
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:48   Log-Likelihood:                -15417.
+No. Observations:                3822   AIC:                         3.084e+04
+Df Residuals:                    3819   BIC:                         3.086e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept    144.6061      2.257     64.064      0.000       140.181   149.032
+Stature        0.0765      0.002     31.488      0.000         0.072     0.081
+Weight         0.2354      0.003     69.614      0.000         0.229     0.242
+==============================================================================
+Omnibus:                      375.463   Durbin-Watson:                   1.663
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1711.688
+Skew:                           0.376   Prob(JB):                         0.00
+Kurtosis:                       6.191   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Biacromial_Breadth
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Biacromial_Breadth   R-squared:                       0.945
+Model:                            OLS   Adj. R-squared:                  0.945
+Method:                 Least Squares   F-statistic:                 1.066e+04
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:48   Log-Likelihood:                -4849.2
+No. Observations:                1240   AIC:                             9704.
+Df Residuals:                    1237   BIC:                             9720.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     69.9150      3.489     20.041      0.000        63.071    76.759
+Stature        0.1467      0.004     39.383      0.000         0.139     0.154
+Weight         0.0854      0.005     16.619      0.000         0.075     0.095
+==============================================================================
+Omnibus:                       24.283   Durbin-Watson:                   1.970
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.509
+Skew:                          -0.226   Prob(JB):                     8.72e-08
+Kurtosis:                       3.651   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Shoulder_Elbow_Length
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     Shoulder_Elbow_Length   R-squared:                       0.974
+Model:                               OLS   Adj. R-squared:                  0.974
+Method:                    Least Squares   F-statistic:                 7.037e+04
+Date:                   Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                           22:50:48   Log-Likelihood:                -13887.
+No. Observations:                   3825   AIC:                         2.778e+04
+Df Residuals:                       3822   BIC:                         2.780e+04
+Df Model:                              2                                         
+Covariance Type:               nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept    -21.9225      1.506    -14.558      0.000       -24.875   -18.970
+Stature        0.2218      0.002    136.848      0.000         0.219     0.225
+Weight         0.0028      0.002      1.260      0.208        -0.002     0.007
+==============================================================================
+Omnibus:                      668.914   Durbin-Watson:                   1.808
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6069.431
+Skew:                           0.562   Prob(JB):                         0.00
+Kurtosis:                       9.068   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Acromion_Radiale_Length
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     Acromion_Radiale_Length   R-squared:                       0.955
+Model:                                 OLS   Adj. R-squared:                  0.955
+Method:                      Least Squares   F-statistic:                 1.304e+04
+Date:                     Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                             22:50:48   Log-Likelihood:                -4729.7
+No. Observations:                     1241   AIC:                             9465.
+Df Residuals:                         1238   BIC:                             9481.
+Df Model:                                2                                         
+Covariance Type:                 nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept    -19.0978      3.156     -6.051      0.000       -25.290   -12.906
+Stature        0.1936      0.003     57.443      0.000         0.187     0.200
+Weight         0.0176      0.005      3.781      0.000         0.008     0.027
+==============================================================================
+Omnibus:                       31.639   Durbin-Watson:                   1.880
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               55.722
+Skew:                          -0.185   Prob(JB):                     7.95e-13
+Kurtosis:                       3.970   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Upper_Arm_Circumference
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     Upper_Arm_Circumference   R-squared:                       0.920
+Model:                                 OLS   Adj. R-squared:                  0.920
+Method:                      Least Squares   F-statistic:                 2.207e+04
+Date:                     Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                             22:50:48   Log-Likelihood:                -15032.
+No. Observations:                     3826   AIC:                         3.007e+04
+Df Residuals:                         3823   BIC:                         3.009e+04
+Df Model:                                2                                         
+Covariance Type:                 nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept    164.6087      2.028     81.172      0.000       160.633   168.585
+Stature       -0.0450      0.002    -20.607      0.000        -0.049    -0.041
+Weight         0.2919      0.003     96.049      0.000         0.286     0.298
+==============================================================================
+Omnibus:                      129.157   Durbin-Watson:                   1.681
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              331.693
+Skew:                           0.117   Prob(JB):                     9.41e-73
+Kurtosis:                       4.423   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Upper_Arm_Depth
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Upper_Arm_Depth   R-squared:                       0.768
+Model:                            OLS   Adj. R-squared:                  0.767
+Method:                 Least Squares   F-statistic:                     2143.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:48   Log-Likelihood:                -4423.0
+No. Observations:                1300   AIC:                             8852.
+Df Residuals:                    1297   BIC:                             8868.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     51.6822      2.077     24.879      0.000        47.607    55.758
+Stature       -0.0164      0.002     -7.306      0.000        -0.021    -0.012
+Weight         0.0950      0.003     30.423      0.000         0.089     0.101
+==============================================================================
+Omnibus:                        2.425   Durbin-Watson:                   1.414
+Prob(Omnibus):                  0.297   Jarque-Bera (JB):                2.492
+Skew:                           0.034   Prob(JB):                        0.288
+Kurtosis:                       3.204   Cond. No.                     1.51e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Elbow_Hand_Length
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Elbow_Hand_Length   R-squared:                       0.971
+Model:                            OLS   Adj. R-squared:                  0.971
+Method:                 Least Squares   F-statistic:                 6.315e+04
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:49   Log-Likelihood:                -14948.
+No. Observations:                3823   AIC:                         2.990e+04
+Df Residuals:                    3820   BIC:                         2.992e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     -5.8334      1.994     -2.926      0.003        -9.743    -1.924
+Stature        0.2642      0.002    123.122      0.000         0.260     0.268
+Weight         0.0242      0.003      8.103      0.000         0.018     0.030
+==============================================================================
+Omnibus:                       78.293   Durbin-Watson:                   1.630
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              122.842
+Skew:                           0.201   Prob(JB):                     2.11e-27
+Kurtosis:                       3.781   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Radiale_Stylion_Length
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Radiale_Stylion_Length   R-squared:                       0.908
+Model:                                OLS   Adj. R-squared:                  0.908
+Method:                     Least Squares   F-statistic:                     6146.
+Date:                    Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                            22:50:49   Log-Likelihood:                -4881.8
+No. Observations:                    1242   AIC:                             9770.
+Df Residuals:                        1239   BIC:                             9785.
+Df Model:                               2                                         
+Covariance Type:                nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     -6.9138      3.554     -1.945      0.052       -13.886     0.058
+Stature        0.1476      0.004     38.878      0.000         0.140     0.155
+Weight         0.0166      0.005      3.169      0.002         0.006     0.027
+==============================================================================
+Omnibus:                      120.732   Durbin-Watson:                   1.911
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              726.408
+Skew:                           0.194   Prob(JB):                    1.83e-158
+Kurtosis:                       6.726   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Forearm_Circumference
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     Forearm_Circumference   R-squared:                       0.929
+Model:                               OLS   Adj. R-squared:                  0.929
+Method:                    Least Squares   F-statistic:                 2.492e+04
+Date:                   Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                           22:50:49   Log-Likelihood:                -14029.
+No. Observations:                   3824   AIC:                         2.806e+04
+Df Residuals:                       3821   BIC:                         2.808e+04
+Df Model:                              2                                         
+Covariance Type:               nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept    127.7550      1.563     81.719      0.000       124.690   130.820
+Stature        0.0038      0.002      2.279      0.023         0.001     0.007
+Weight         0.1873      0.002     79.963      0.000         0.183     0.192
+==============================================================================
+Omnibus:                       96.214   Durbin-Watson:                   1.522
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              205.018
+Skew:                          -0.121   Prob(JB):                     3.03e-45
+Kurtosis:                       4.108   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Forearm_Breadth
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Forearm_Breadth   R-squared:                       0.852
+Model:                            OLS   Adj. R-squared:                  0.851
+Method:                 Least Squares   F-statistic:                     3730.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:49   Log-Likelihood:                -3918.1
+No. Observations:                1302   AIC:                             7842.
+Df Residuals:                    1299   BIC:                             7858.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     31.2783      1.399     22.352      0.000        28.533    34.023
+Stature        0.0088      0.002      5.831      0.000         0.006     0.012
+Weight         0.0545      0.002     25.861      0.000         0.050     0.059
+==============================================================================
+Omnibus:                       94.705   Durbin-Watson:                   1.695
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              314.110
+Skew:                           0.306   Prob(JB):                     6.19e-69
+Kurtosis:                       5.327   Cond. No.                     1.51e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Wrist_Circumference
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Wrist_Circumference   R-squared:                       0.839
+Model:                             OLS   Adj. R-squared:                  0.839
+Method:                  Least Squares   F-statistic:                     3420.
+Date:                 Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                         22:50:49   Log-Likelihood:                -4543.8
+No. Observations:                 1311   AIC:                             9094.
+Df Residuals:                     1308   BIC:                             9109.
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept    100.8804      2.196     45.934      0.000        96.572   105.189
+Stature       -0.0006      0.002     -0.243      0.808        -0.005     0.004
+Weight         0.0999      0.003     30.229      0.000         0.093     0.106
+==============================================================================
+Omnibus:                       20.645   Durbin-Watson:                   1.652
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               37.211
+Skew:                           0.008   Prob(JB):                     8.31e-09
+Kurtosis:                       3.825   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Wrist_Breadth
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Wrist_Breadth   R-squared:                       0.749
+Model:                            OLS   Adj. R-squared:                  0.749
+Method:                 Least Squares   F-statistic:                     1948.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:49   Log-Likelihood:                -3141.2
+No. Observations:                1306   AIC:                             6288.
+Df Residuals:                    1303   BIC:                             6304.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     27.0537      0.763     35.436      0.000        25.556    28.551
+Stature       -0.0020      0.001     -2.389      0.017        -0.004    -0.000
+Weight         0.0286      0.001     24.843      0.000         0.026     0.031
+==============================================================================
+Omnibus:                       25.058   Durbin-Watson:                   1.659
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               44.652
+Skew:                           0.107   Prob(JB):                     2.01e-10
+Kurtosis:                       3.880   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Hand_Length
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Hand_Length   R-squared:                       0.940
+Model:                            OLS   Adj. R-squared:                  0.940
+Method:                 Least Squares   F-statistic:                 2.967e+04
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:49   Log-Likelihood:                -12517.
+No. Observations:                3819   AIC:                         2.504e+04
+Df Residuals:                    3816   BIC:                         2.506e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     14.0717      1.058     13.298      0.000        11.997    16.146
+Stature        0.0968      0.001     84.917      0.000         0.095     0.099
+Weight         0.0079      0.002      5.005      0.000         0.005     0.011
+==============================================================================
+Omnibus:                      345.701   Durbin-Watson:                   1.797
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1977.595
+Skew:                          -0.218   Prob(JB):                         0.00
+Kurtosis:                       6.498   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Hand_Breadth
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Hand_Breadth   R-squared:                       0.880
+Model:                            OLS   Adj. R-squared:                  0.880
+Method:                 Least Squares   F-statistic:                 1.396e+04
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:49   Log-Likelihood:                -10668.
+No. Observations:                3820   AIC:                         2.134e+04
+Df Residuals:                    3817   BIC:                         2.136e+04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     20.7681      0.652     31.867      0.000        19.490    22.046
+Stature        0.0297      0.001     42.293      0.000         0.028     0.031
+Weight         0.0196      0.001     20.083      0.000         0.018     0.022
+==============================================================================
+Omnibus:                       24.030   Durbin-Watson:                   1.370
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.944
+Skew:                           0.012   Prob(JB):                     2.58e-08
+Kurtosis:                       3.468   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Minimum_Hand_Clearance
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Minimum_Hand_Clearance   R-squared:                       0.867
+Model:                                OLS   Adj. R-squared:                  0.867
+Method:                     Least Squares   F-statistic:                     4108.
+Date:                    Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                            22:50:49   Log-Likelihood:                -6186.1
+No. Observations:                    1266   AIC:                         1.238e+04
+Df Residuals:                        1263   BIC:                         1.239e+04
+Df Model:                               2                                         
+Covariance Type:                nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept    268.8628      9.211     29.190      0.000       250.793   286.933
+Stature        0.1477      0.010     14.830      0.000         0.128     0.167
+Weight         0.2609      0.014     18.702      0.000         0.234     0.288
+==============================================================================
+Omnibus:                       46.180   Durbin-Watson:                   1.705
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               63.370
+Skew:                           0.361   Prob(JB):                     1.74e-14
+Kurtosis:                       3.824   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Thumb_Crotch_Mid_F
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Thumb_Crotch_Mid_F   R-squared:                       0.825
+Model:                            OLS   Adj. R-squared:                  0.825
+Method:                 Least Squares   F-statistic:                     2879.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:50   Log-Likelihood:                -4276.1
+No. Observations:                1222   AIC:                             8558.
+Df Residuals:                    1219   BIC:                             8573.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     13.8025      2.443      5.649      0.000         9.009    18.596
+Stature        0.0620      0.003     23.897      0.000         0.057     0.067
+Weight         0.0149      0.004      4.211      0.000         0.008     0.022
+==============================================================================
+Omnibus:                       52.836   Durbin-Watson:                   1.605
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              109.005
+Skew:                          -0.275   Prob(JB):                     2.14e-24
+Kurtosis:                       4.356   Cond. No.                     1.58e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.58e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Thumb_Length
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Thumb_Length   R-squared:                       0.854
+Model:                            OLS   Adj. R-squared:                  0.854
+Method:                 Least Squares   F-statistic:                     3698.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:50   Log-Likelihood:                -3543.2
+No. Observations:                1270   AIC:                             7092.
+Df Residuals:                    1267   BIC:                             7108.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept      1.9966      1.133      1.762      0.078        -0.226     4.219
+Stature        0.0359      0.001     29.303      0.000         0.033     0.038
+Weight         0.0036      0.002      2.112      0.035         0.000     0.007
+==============================================================================
+Omnibus:                       93.512   Durbin-Watson:                   1.814
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              232.145
+Skew:                           0.414   Prob(JB):                     3.89e-51
+Kurtosis:                       4.924   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Thumb_Diameter
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         Thumb_Diameter   R-squared:                       0.850
+Model:                            OLS   Adj. R-squared:                  0.849
+Method:                 Least Squares   F-statistic:                     3555.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:50   Log-Likelihood:                -4629.1
+No. Observations:                1261   AIC:                             9264.
+Df Residuals:                    1258   BIC:                             9280.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     65.8044      2.734     24.066      0.000        60.440    71.169
+Stature        0.0567      0.003     19.150      0.000         0.051     0.062
+Weight         0.0496      0.004     11.966      0.000         0.041     0.058
+==============================================================================
+Omnibus:                       21.132   Durbin-Watson:                   1.699
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.627
+Skew:                           0.131   Prob(JB):                     4.99e-08
+Kurtosis:                       3.756   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Index_Finger_Length
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Index_Finger_Length   R-squared:                       0.890
+Model:                             OLS   Adj. R-squared:                  0.890
+Method:                  Least Squares   F-statistic:                     5145.
+Date:                 Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                         22:50:50   Log-Likelihood:                -3437.8
+No. Observations:                 1269   AIC:                             6882.
+Df Residuals:                     1266   BIC:                             6897.
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept      3.3794      1.046      3.230      0.001         1.327     5.432
+Stature        0.0393      0.001     34.819      0.000         0.037     0.042
+Weight         0.0035      0.002      2.232      0.026         0.000     0.007
+==============================================================================
+Omnibus:                       18.084   Durbin-Watson:                   1.831
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.125
+Skew:                           0.235   Prob(JB):                     4.27e-05
+Kurtosis:                       3.399   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Index_Finger_Diameter
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     Index_Finger_Diameter   R-squared:                       0.859
+Model:                               OLS   Adj. R-squared:                  0.858
+Method:                    Least Squares   F-statistic:                     3829.
+Date:                   Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                           22:50:50   Log-Likelihood:                -4301.3
+No. Observations:                   1265   AIC:                             8609.
+Df Residuals:                       1262   BIC:                             8624.
+Df Model:                              2                                         
+Covariance Type:               nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     48.7904      2.086     23.384      0.000        44.697    52.884
+Stature        0.0467      0.002     20.699      0.000         0.042     0.051
+Weight         0.0368      0.003     11.637      0.000         0.031     0.043
+==============================================================================
+Omnibus:                        8.824   Durbin-Watson:                   1.775
+Prob(Omnibus):                  0.012   Jarque-Bera (JB):               10.441
+Skew:                           0.113   Prob(JB):                      0.00540
+Kurtosis:                       3.384   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Middle_Finger_Length
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     Middle_Finger_Length   R-squared:                       0.904
+Model:                              OLS   Adj. R-squared:                  0.904
+Method:                   Least Squares   F-statistic:                     5969.
+Date:                  Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                          22:50:50   Log-Likelihood:                -3476.9
+No. Observations:                  1269   AIC:                             6960.
+Df Residuals:                      1266   BIC:                             6975.
+Df Model:                             2                                         
+Covariance Type:              nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept      2.9118      1.079      2.699      0.007         0.795     5.028
+Stature        0.0441      0.001     37.812      0.000         0.042     0.046
+Weight         0.0034      0.002      2.080      0.038         0.000     0.007
+==============================================================================
+Omnibus:                       14.502   Durbin-Watson:                   1.923
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               19.318
+Skew:                           0.136   Prob(JB):                     6.38e-05
+Kurtosis:                       3.540   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Middle_Finger_Diameter
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Middle_Finger_Diameter   R-squared:                       0.852
+Model:                                OLS   Adj. R-squared:                  0.852
+Method:                     Least Squares   F-statistic:                     3639.
+Date:                    Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                            22:50:50   Log-Likelihood:                -4361.7
+No. Observations:                    1270   AIC:                             8729.
+Df Residuals:                        1267   BIC:                             8745.
+Df Model:                               2                                         
+Covariance Type:                nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     54.9609      2.152     25.544      0.000        50.740    59.182
+Stature        0.0426      0.002     18.304      0.000         0.038     0.047
+Weight         0.0432      0.003     13.249      0.000         0.037     0.050
+==============================================================================
+Omnibus:                        9.151   Durbin-Watson:                   1.769
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):               12.777
+Skew:                           0.006   Prob(JB):                      0.00168
+Kurtosis:                       3.491   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Mid_Finger_Thumb_G
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Mid_Finger_Thumb_G   R-squared:                       0.671
+Model:                            OLS   Adj. R-squared:                  0.671
+Method:                 Least Squares   F-statistic:                     1263.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):          1.46e-299
+Time:                        22:50:50   Log-Likelihood:                -4601.9
+No. Observations:                1240   AIC:                             9210.
+Df Residuals:                    1237   BIC:                             9225.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     -0.3244      2.933     -0.111      0.912        -6.079     5.430
+Stature        0.0632      0.003     20.133      0.000         0.057     0.069
+Weight        -0.0080      0.004     -1.848      0.065        -0.017     0.000
+==============================================================================
+Omnibus:                      101.035   Durbin-Watson:                   1.230
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              143.261
+Skew:                          -0.646   Prob(JB):                     7.79e-32
+Kurtosis:                       4.051   Cond. No.                     1.54e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.54e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Maximum_Fist_Circumference
+                                OLS Regression Results                                
+======================================================================================
+Dep. Variable:     Maximum_Fist_Circumference   R-squared:                       0.889
+Model:                                    OLS   Adj. R-squared:                  0.889
+Method:                         Least Squares   F-statistic:                     5042.
+Date:                        Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                                22:50:50   Log-Likelihood:                -5007.7
+No. Observations:                        1265   AIC:                         1.002e+04
+Df Residuals:                            1262   BIC:                         1.004e+04
+Df Model:                                   2                                         
+Covariance Type:                    nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     70.7748      3.660     19.338      0.000        63.595    77.955
+Stature        0.0861      0.004     21.798      0.000         0.078     0.094
+Weight         0.0844      0.006     15.312      0.000         0.074     0.095
+==============================================================================
+Omnibus:                       23.173   Durbin-Watson:                   1.604
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.256
+Skew:                          -0.179   Prob(JB):                     3.64e-08
+Kurtosis:                       3.722   Cond. No.                     1.51e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.51e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Maximum_Fist_Breadth
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     Maximum_Fist_Breadth   R-squared:                       0.742
+Model:                              OLS   Adj. R-squared:                  0.742
+Method:                   Least Squares   F-statistic:                     1823.
+Date:                  Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                          22:50:51   Log-Likelihood:                -4198.3
+No. Observations:                  1271   AIC:                             8403.
+Df Residuals:                      1268   BIC:                             8418.
+Df Model:                             2                                         
+Covariance Type:              nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept     35.4283      1.894     18.704      0.000        31.712    39.144
+Stature        0.0181      0.002      8.866      0.000         0.014     0.022
+Weight         0.0385      0.003     13.476      0.000         0.033     0.044
+==============================================================================
+Omnibus:                       30.390   Durbin-Watson:                   1.590
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               37.597
+Skew:                           0.294   Prob(JB):                     6.85e-09
+Kurtosis:                       3.603   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Maximum_Fist_Depth
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Maximum_Fist_Depth   R-squared:                       0.817
+Model:                            OLS   Adj. R-squared:                  0.816
+Method:                 Least Squares   F-statistic:                     2822.
+Date:                Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                        22:50:51   Log-Likelihood:                -3917.4
+No. Observations:                1271   AIC:                             7841.
+Df Residuals:                    1268   BIC:                             7856.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept      9.2768      1.518      6.109      0.000         6.298    12.256
+Stature        0.0372      0.002     22.661      0.000         0.034     0.040
+Weight         0.0114      0.002      4.957      0.000         0.007     0.016
+==============================================================================
+Omnibus:                       72.012   Durbin-Watson:                   1.589
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              104.299
+Skew:                          -0.483   Prob(JB):                     2.25e-23
+Kurtosis:                       4.018   Cond. No.                     1.50e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.5e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
+Trochanteric_Height
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Trochanteric_Height   R-squared:                       0.977
+Model:                             OLS   Adj. R-squared:                  0.977
+Method:                  Least Squares   F-statistic:                 2.627e+04
+Date:                 Fri, 03 Feb 2017   Prob (F-statistic):               0.00
+Time:                         22:50:51   Log-Likelihood:                -5596.4
+No. Observations:                 1238   AIC:                         1.120e+04
+Df Residuals:                     1235   BIC:                         1.121e+04
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Intercept   -191.8099      6.413    -29.909      0.000      -204.392  -179.228
+Stature        0.6768      0.007     98.817      0.000         0.663     0.690
+Weight        -0.1277      0.009    -13.506      0.000        -0.146    -0.109
+==============================================================================
+Omnibus:                       49.194   Durbin-Watson:                   1.853
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               96.137
+Skew:                           0.268   Prob(JB):                     1.33e-21
+Kurtosis:                       4.255   Cond. No.                     1.49e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+
+
+
