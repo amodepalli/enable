@@ -1,0 +1,137 @@
+<style type="text/css">
+small {
+    position: relative;
+    top: -20px;
+}
+large{
+    height:200%;
+}
+
+</style>
+<div class="container">
+    <div class="row">
+        <!-- Measurement inputs  -->
+        <div class="col s12 m12 l4">
+            <div class="card">
+                <div class="card-content black-text">
+                    <span class="card-title center">Measurements</span>
+                    <div class="container">
+                        <form [formGroup]="form">
+                            <div class="row">
+                                <div class="col s12">
+                                    <label for="hand_type">Hand Type</label>
+                                    <select formControlName="handType" id="hand_type" materialize="material_select">
+                                        <option value="" disabled selected>Choose your option</option>
+                                        <option value="Right">Right</option>
+                                        <option value="Left">Left</option>
+                                    </select>
+                                </div>
+                                <!-- Accuracy Level -->
+                                <div class="input-field col s12">
+                                    <select (change)="accuracyLevelChange()" formControlName="accuracyLevel" name="accuracyLevel" materialize="material_select">
+                                        <option value="" disabled selected>Choose your option</option>
+                                        <option value=1>1</option>
+                                        <option value=2>2</option>
+                                        <option value=3>3</option>
+                                    </select>
+                                    <label>Accuracy Level</label>
+                                </div>
+                                <!-- Height Input -->
+                                <div class="input-field col s12">
+                                    <label for="height_input">Height (cm)</label>
+                                    <input formControlName="height" id="height_input" type="number" step="any" min="0">
+                                    <small class="red-text" *ngIf="!form.controls['height'].valid">Required</small>
+                                </div>
+                                <!-- Weight Input -->
+                                <div class="input-field col s12">
+                                    <label for="weight">Weight (kg)</label>
+                                    <input formControlName="weight" id="weight" type="number" step="any" min="0">
+                                    <small class="red-text" *ngIf="!form.controls['weight'].valid">Required</small>
+                                </div>
+                                <!-- Miscellaneous Inputs -->
+                                <div *ngIf="form.controls['accuracyLevel'].value==2 || form.controls['accuracyLevel'].value==3 && accuracyLevelChanged==true">
+                                    <div class="input-field col s12">
+                                        <label for="hand_width">Hand Width (cm)</label>
+                                        <input formControlName="handWidth" id="hand_width" type="number" step="any" min="0">
+                                        <small class="red-text" *ngIf="!form.controls['handWidth'].valid">Required</small>
+                                    </div>
+                                </div>
+                                <div *ngIf="form.controls['accuracyLevel'].value==3 && accuracyLevelChanged==true">
+                                    <div class="input-field col s12">
+                                        <label for="hand_length">Hand Length (cm)</label>
+                                        <input formControlName="handLength" id="hand_length" type="number" step="any" min="0">
+                                        <small class="red-text" *ngIf="!form.controls['handLength'].valid">Required</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <div class="row">
+                        <div class="col s4">
+                            <a class="btn" [routerLink]="['/']">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m12 l4">
+            <div class="card large">
+                <div class="card-content black-text">
+                    <span class="card-title center">Descriptions</span>
+                    <div class="row">
+                        <div class="col s12">
+                            <p> 
+                                Take a look on the right if you are unsure how to take your measurements
+                                <br>
+                                <br>
+                                <b>Hand Type:</b> Choose the hand that needs the prosthetic
+                                <br>
+                                <br>
+                                <b>Accuracy Level:</b> Increasing a level will require you to enter more measurements
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <div class="row">
+                    <div class="col s4 push-s4 center">
+                    <a class="btn" data-target="help" (click)="openModal()">Help</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col s12 m12 l4">
+            <div class="card large">
+                <div class="card-content black-text">
+                    <span class="card-title center">Visuals</span>
+                    <div class="center">
+                        <img src="http://placehold.it/350x300">
+                    </div>
+                </div>
+                <div class="card-action">
+                    <div class="row">
+                        <div class="col s4 push-s8">
+                           <form [formGroup]="form">
+                                <button class='btn' [disabled]="!form.valid" [routerLink]="['/output']">Next</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Visual for hand measurements -->
+<div id="help" class="modal" materialize="modal" [materializeParams]="[{dismissible: false}]" [materializeActions]="modalActions">
+    <div class="modal-content">
+        <h4 class="center">Help</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis turpis ac nisl hendrerit hendrerit. Aenean tincidunt, ligula ac pellentesque luctus, odio tellus rutrum nunc, sed fringilla leo velit id nunc. Proin porttitor ipsum erat, eu sagittis quam rhoncus ac. Vivamus facilisis lacinia nulla. Sed porta purus metus, mattis interdum leo aliquet at. Proin non volutpat massa. Morbi efficitur purus vel massa hendrerit, eget sollicitudin elit maximus.</p>
+    </div>
+    <div class="modal-footer">
+        <a class=" modal-action modal-close waves-effect btn-flat" (click)="closeModal()">Close</a>
+    </div>
+</div>
